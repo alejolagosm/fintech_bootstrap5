@@ -1,0 +1,17 @@
+body::before {
+  display: block;
+  content: "";
+  height: 50px;
+}
+
+.sub-input {
+  width: 100%;
+}
+.opacity-50 {
+  opacity: 0.5;
+}
+@media (min-width: 900px) {
+  .sub-input {
+    width: 80%;
+  }
+}
